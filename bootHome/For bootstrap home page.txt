@@ -1,0 +1,6 @@
+DIRECTIONS OF USE
+-----------------
+1.Download Boothome foldern
+2.directly run boothome.html in the folder without anychanges
+
+NOTE: This is just a basic static webpage
