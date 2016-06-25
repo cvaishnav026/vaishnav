@@ -37,6 +37,4 @@ NAME	        VARCHAR(40)	YES		NULL
 DESCRIPTION	VARCHAR(250)	YES		NULL
 PRICE	        DOUBLE(17)	YES		NULL
 
-
-
 5.last point only run the frontend of the project, backend is integrated in it
