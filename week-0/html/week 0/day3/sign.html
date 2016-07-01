@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+sign up
+</title>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+</head>
+<body bgcolor="cyan">
+<form align="center" name="myForm" onsubmit="return validateForm()">
+First name:<br>
+<br>
+<input type="text" name="fname"><br>
+<br>
+Last name:<br><br>
+<input type="text" name="last name"><br>
+<br>
+Email:<br><br>
+<input type="email" name="email"><br><br>
+Password:<br><br>
+<input type="password" name="psw"><br><br>
+Confirm Password:<br><br>
+<input type="password" name="cpsw"><br><br>
+D.O.B:<br><br>
+<input type="date" name="birthday"><br><br>
+Gender:<br><br>
+<input type="radio" name="gender" value="Male" checked>MALE<br>
+<input type="radio" name="gender" value="Female">FEMALE<br>
+<input type="radio" name="gender" value="Other">OTHER<br><br>
+About you:<br><br>
+<textarea name="message" rows="10" cols="30">fill ur details
+</textarea><br><br>
+<input type="submit" style="font-size:200%" value="Submit">
+<center>
+<a href="home.html">
+<button name="back"  style="font-size:150%;color:red">GO BACK</button></a>
+</center>
+</body>
+</html>

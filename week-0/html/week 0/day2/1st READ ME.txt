@@ -1,0 +1,12 @@
+ABOUT
+------
+
+The work is about making a page with welcome head scrolling and 3 links home,about us and contact with table
+
+
+
+
+DIRECTIONS OF USE
+-----------------
+
+1.CLICK ON mainpage.html for the result
