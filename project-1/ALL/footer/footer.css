@@ -1,0 +1,51 @@
+#footer
+{
+width:100%;
+height:50px;
+background:lightgreen;
+border-style:solid none none;
+border-width:1px;
+
+}
+
+#footer .fleft 
+{
+text-align:center;
+line-height:50px;
+height:50px;
+float:left;
+width:50%;
+}
+
+
+#footer .fright
+{
+height:50px;
+width:50%;
+float:right;
+}
+
+
+#footer .fright ul
+{
+list-style:none;
+}
+
+#footer .fright ul li
+{
+display:inline;
+margin-left:50px;
+}
+
+
+#footer .fright ul li a
+{
+text-decoration:none;
+color:green;
+}
+
+
+#footer .fright ul li a:hover
+{
+text-decoration:underline;	
+}

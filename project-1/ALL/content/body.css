@@ -1,0 +1,113 @@
+#body
+{
+width:100%;
+height:550;
+background-color:lightgreen;
+}
+
+
+#body #bleft
+{
+float:left;
+width:30%;
+height:100%;
+border-style: solid double ;
+border-width:1px 4px 0px 0px;
+border-color:green;
+
+}
+
+
+#body #bleft .blheading
+{
+text-align:center;
+color:green;
+text-decoration:underline;
+border:solid 1px;
+border-radius:20px;
+background-color:#8BFFA3;
+margin:10px 100px 10px 100px;
+padding:10px;
+
+}
+#body #bleft p
+{
+font-size:21px;
+padding:10px;
+}
+
+
+
+#body #bright
+{
+float:right;
+width:30%;
+height:100%;
+border-style: solid double ;
+border-width:1px 0px 0px 4px;
+border-color:green;
+
+}
+
+
+
+#body #bmiddle 
+{
+float:left;
+width:39%;
+height:100%;
+border-style: solid  ;
+border-width:1px 0px 0px 0px;
+
+
+}
+
+
+#body #bmiddle .bmheading
+{
+text-align:center;
+color:green;
+text-decoration:underline;
+border:solid 1px;
+border-radius:20px;
+background-color:#8BFFA3;
+margin:10px 100px 10px 100px;
+padding:10px;
+}
+
+
+#body #bmiddle iframe
+{
+margin:50px;
+border:groove green 10px;
+
+}
+
+#body #bright .brheading
+{
+
+text-align:center;
+color:green;
+text-decoration:underline;
+border:solid 1px;
+border-radius:20px;
+background-color:#8BFFA3;
+margin:10px 150px;
+padding:10px;
+}
+
+#body #bright .brpara
+{
+font-size:21px;
+padding:10px;
+}
+
+
+#body #bright img
+{
+width:50%;
+height:30%;
+margin:30px;
+border:groove green 10px;
+
+}

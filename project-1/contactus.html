@@ -1,0 +1,212 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function f1()
+{
+var v1=document.getElementById('t1').value;
+var v2=document.getElementById('t2').value;
+var v3=document.getElementById('t3').value;
+var v4=document.getElementById('t4').value;
+var s=true;
+
+
+
+if(v1=="")
+{
+a('t1err',"enter Your Username");
+s=false;
+}
+else if(!v1.match(/^[a-z]+$/))
+{
+a('t1err',"enter only lowercase aphabeats");
+s=false;
+}
+else
+{
+a('t1err',"good very good!!");
+}
+
+
+
+
+if(v2=="")
+{
+a('t2err',"please enter Lastname");
+s=false;
+}
+else if(!v2.match(/^[A-Z]+$/))
+{
+a('t2err',"Enter only one character in uppercase");
+s=false;
+}
+else
+{
+a('t2err',"good boY!!!"); 
+}
+
+if(v3=="")
+{
+a('t3err',"enter Your Phonenumber");
+s=false;
+}
+else if(!v3.match(/^[0-9]+$/))
+{
+a('t3err',"enter only numbers");
+s=false;
+}
+else
+{
+a('t3err',"good very good!!");
+}
+
+if(v4=="")
+{
+a('t4err',"enter Your e-MAIL");
+s=false;
+}
+else if(!v4.match(/^[a-z,A-Z,0-9,@ !]+$/))
+{
+a('t4err',"enter your email correctly");
+s=false;
+}
+else
+{
+a('t4err',"good very good!!");
+}
+
+
+return s;
+}
+function a(idname,message)
+{
+document.getElementById(idname).innerHTML=message;
+
+}
+
+</script>
+
+
+
+
+<html>
+<head>
+<title>Sync animation</title>
+<link href="style.css" rel="stylesheet" />
+
+</head>
+<!--Main Starts-->
+<div id="main">
+
+
+<!--head starts-->
+
+<div id="head">
+<div id="hleft"><p class="mainhead">Sync Animation</p></div>
+
+<div id="hmid"><img src="images/phone-small.png" /> <p>8719491605</p> <img class="mail" src="images/gmail.png" /> <p class="mailid">abhinavreddy1925@gmail.com</p> </div>
+
+
+<div id="hright"><ul><li><img src="images/face.png" /></li>
+<li><img src="images/instagram.png" /></li>
+<li><img src="images/twitter.png" /></li></ul>
+</div>
+</div>
+
+<!--head ends-->
+
+<!--Nav starts-->
+
+<div id="nav">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="#">Aboutus</a></li>
+<li><a href="contactus.html">Contact</a></li>
+<li><a href="#">Gallery</a></li>
+
+</ul>
+
+</div>
+
+<!--Nav Ends-->
+
+
+<!--content starts-->
+<div id="contactpage">
+
+
+<form  action=next.html onsubmit="return f1()">
+<fieldset>
+<table>
+<tr><td><label>Firstname<label> <td>
+<td><input type=text  id="t1" />                          <td><br/><span id=t1err></span><br/>
+</tr>
+
+<tr><td><label>Lastname<label> <td>
+<td><input type=text  id="t2" />                            <td><br/><span id=t2err></span><br/>
+</tr>
+
+<tr><td><label>Phonenumber<label> <td>
+<td><input type=text  id="t3"/> <td><br/><span id=t3err></span><br/>
+</tr>
+
+<tr><td><label>E-mail<label> <td>
+<td><input type=text   id="t4"/> <td><br/><span id=t4err></span><br/>
+</tr>
+
+
+<tr>
+<td><input type=submit class="submit"> <td>
+</tr>
+</table>
+</fieldset>
+</form>
+</div>
+
+<!--content ends-->
+
+<!--footer starts-->
+ <div id="footer">
+
+<div class="fleft">
+Copyright @ SyncAnimation.com
+</div>
+
+<div class="fright">
+<ul>
+<li><a href="#">home</a></li>
+<li><a href="#">aboutus</a></li>
+<li><a href="#">contact</a></li>
+<li><a href="#">gallary</a></li>
+
+</ul>
+</div>
+
+
+</div>
+</div>
+<!--footer ends-->
+
+<!--Main ends-->
+
+
+
+
+
+
+</html>
