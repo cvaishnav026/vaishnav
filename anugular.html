@@ -1,0 +1,76 @@
+<div class="container">
+<div ng-app="myApp" ng-controller="namesCtrl">
+
+<p style="color:gold"><h1>Popular and current products available in the site</h1></p>
+
+<p><input type="text" ng-model="test" placeholder="Search"></p>
+
+<table class="table table-condensed">
+<!-- <TR>
+<TD>PRODUCT NAME</TD>
+<TD>DECRIPTION</TD>
+<TD>PRICE</TD>
+</TR> -->
+<tr >
+   <th ng-repeat="z in name3 | filter:test"> {{ z }}</th>
+    </tr>
+<tr class="info" >
+   <TD ng-repeat="x in name1 | filter:test"> {{ x }}</TD>
+    </tr>
+    <tr class="info">
+   <TD ng-repeat="y in name2 | filter:test"> {{ y }}</TD>
+    </tr>
+     <tr class="info">
+   <TD ng-repeat="w in name4 | filter:test"> {{ w }}</TD>
+    </tr>
+    <tr>
+    <td><h2>Click below for more info</h2></td>
+    </tr>
+    <tr>
+    <td>
+    <a href="views/products.jsp">
+<button type="button" class="btn btn-primary">MORE</button></a>
+    </td>
+    </tr>
+</table>
+
+</div>
+</div>
+
+<script>
+angular.module('myApp', []).controller('namesCtrl', function($scope) {
+    $scope.name1 = [
+        
+        'Ganesh Idol  ',
+        'The symbol for all gods',
+        10000.00,
+    ];
+    $scope.name2 = [
+                    
+                    'Chinese Buddha',
+                    'laughing buddha',
+                    5000.00,
+                ];
+ $scope.name3 = [
+                    
+                    'Product Name',
+                    'Description',
+                    'Price in Rupees',
+                ];
+ $scope.name4 = [
+                 
+                 'TRIDEV',
+                 'All three major gods',
+                 20000.00,
+             ];
+});
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</section>
