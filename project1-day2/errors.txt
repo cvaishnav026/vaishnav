@@ -1,0 +1,1 @@
+hibernate transaction was not getting done due to integer value being taken in zip code had to change it to string for taking values directly through controllers
