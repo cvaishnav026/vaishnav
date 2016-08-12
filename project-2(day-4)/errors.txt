@@ -1,0 +1,5 @@
+1.hibernate exceptions-cant fint the source name
+2.db error-unable to connect to datasource
+3.form:input error-still not resolved
+4.security error because dint give the dependency
+5.security error because used a higher version of security while using lower version of spring
