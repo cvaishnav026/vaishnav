@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ajs exp</title>
+<!-- angular js link -->
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="vaish" ng-init="n1=1;n2=1">
+enter a number:<input type="number" ng-model="n1">
+<br>
+enter another number:<input type="number" ng-model="n2">
+<hr>
+Addition:{{ n1+n2 }}
+<br>
+Subtraction:{{ n1-n2 }}
+<br>
+Multiplication:{{ n1*n2 }}
+<br>
+Division:{{ n1/n2 }}
+</div>
+</body>
+</html>

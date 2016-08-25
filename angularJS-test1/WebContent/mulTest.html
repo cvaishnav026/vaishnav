@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Multiple</title>
+<!-- angular js link -->
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="namesCtrl">
+
+<ol>
+  <li ng-repeat="x in names">
+    {{ x.name + ', ' + x.country + ', ' + x.value }}
+  </li>
+</ol>
+
+</div>
+
+<script>
+angular.module('myApp', []).controller('namesCtrl', function($scope) {
+    $scope.names = [
+        {name:'Jani',country:'Norway',value:10000},
+        {name:'Hege',country:'Sweden',value:10000},
+        {name:'Kai',country:'Denmark',value:10000}
+    ];
+});
+</script>
+</body>
+</html>
