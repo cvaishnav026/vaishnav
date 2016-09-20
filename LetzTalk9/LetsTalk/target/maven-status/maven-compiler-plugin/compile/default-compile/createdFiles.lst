@@ -1,0 +1,9 @@
+com\niit\controllers\UserController.class
+com\niit\services\UserServiceImple.class
+com\niit\dao\UserDAO.class
+com\niit\model\User.class
+com\niit\services\UserService.class
+com\niit\dao\UserDAOImple.class
+com\niit\model\Forum.class
+com\niit\controllers\FileHandler.class
+com\niit\model\Blog.class
